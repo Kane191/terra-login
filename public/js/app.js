@@ -5257,10 +5257,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -28177,25 +28173,59 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("h1", [_vm._v("Hey there")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component"),
-            ]),
+    return _c(
+      "div",
+      { staticClass: "container", staticStyle: { position: "relative" } },
+      [
+        _c(
+          "div",
+          { staticClass: "row justify-content-center color-white child" },
+          [
+            _c(
+              "h1",
+              {
+                staticClass: "color-white",
+                staticStyle: { "font-size": "48px" },
+              },
+              [_vm._v("Welcome")]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              ),
-            ]),
-          ]),
-        ]),
-      ]),
-    ])
+            _c(
+              "div",
+              {
+                staticClass: "d-flex",
+                staticStyle: { "text-align": "center" },
+              },
+              [
+                _c("p", [_vm._v("View my socials")]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://github.com/kane191",
+                      target: "_blank",
+                    },
+                  },
+                  [_c("i", { staticClass: "fab fa-github " })]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://www.linkedin.com/in/sarah-kane-516781148/",
+                      target: "_blank",
+                    },
+                  },
+                  [_c("i", { staticClass: "fab fa-linkedin" })]
+                ),
+              ]
+            ),
+          ]
+        ),
+      ]
+    )
   },
 ]
 render._withStripped = true

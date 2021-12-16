@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="{{asset('css/styles.css')}}" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Styles -->
         <style>
@@ -17,13 +19,18 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                margin-bottom: 21px !important;
+                /* margin-top: -21px !important; */
+                overflow-y: hidden;
             }
         </style>
         
     </head>
     <body class="antialiased">
         <div id="app">
+        <div class="auth_bg">
             <example-component> </example-component>
+        </div>
         </div>
         <script src="{{ asset('js/app.js')}}"></script>
     </body>

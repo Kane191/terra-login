@@ -47,3 +47,9 @@
     background: #d6b161;
     border-color: unset;
 }
+.child {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
