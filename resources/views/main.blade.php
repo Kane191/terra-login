@@ -7,7 +7,7 @@
         <title>@yield('title')</title>   
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- <link rel="stylesheet" type="text" href="{{asset('/css/styles.css')}}"> -->
-        <link href="{{asset('css/styles.css')}}" rel="stylesheet">
+        <link href="{{secure_asset('css/styles.css')}}" rel="stylesheet">
         <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script> -->
         <style>
             h1{
